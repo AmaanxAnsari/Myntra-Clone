@@ -152,25 +152,32 @@ span {
 .item {
   width: 100%;
 }
-#grid-item1 {
-  height: 400px;
-  padding: 0%;
+.grid-banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-#grid-item2 {
-  height: 400px;
-  padding: 0%;
-}
-#row-banner1 {
-  height: inherit;
-}
-#row-banner2 {
-  height: inherit;
-  width: -webkit-fill-available;
+.grid-banner > img {
+  width: 100%;
 }
 .bgt-container {
   margin: 0;
   padding: 0;
   width: 100%;
+}
+.bgt-item > img {
+  width: 100%;
+}
+.style-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.style-container > img {
+  width: 100%;
+}
+.bgt-item {
+  padding: 0;
 }
 .bgt-item > img {
   width: 100%;
