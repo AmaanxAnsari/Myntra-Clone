@@ -330,3 +330,44 @@ strong {
 .return-txt {
   font-size: 14px;
 }
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+.search hr {
+  border: 1px;
+  height: 1px;
+  background-color: var(--darkgrey);
+}
+.search-title {
+  position: absolute;
+  margin-top: -15px;
+  background: #fafbfc;
+  padding-right: 10px;
+  color: #282c3f;
+  font-size: 12px;
+  font-weight: 700;
+}
+.search-link {
+  margin-top: 30px;
+}
+.search-link > a {
+  text-decoration: none;
+  color: #696b79;
+  font-size: 14px;
+  line-height: 25px;
+}
+.search-link > a:after {
+  content: "|";
+  margin-left: 3px;
+}
