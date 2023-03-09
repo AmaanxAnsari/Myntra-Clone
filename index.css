@@ -371,3 +371,29 @@ hr {
   content: "|";
   margin-left: 3px;
 }
+
+.infoSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+.contact {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #696b79;
+}
+.contact > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #526cd0;
+}
+.copyright {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #94969f;
+  text-align: end;
+}
